@@ -1,5 +1,5 @@
 # dailymotion_api
-purpose of this Small PHP class is to use Dailymotion php SDK to fetch videos.
+purpose of this Small PHP class is to use Dailymotion php SDK to fetch videos. You can create your own Video search engine which fetches videos from Dailymotion
 
 # Usage
 ```
