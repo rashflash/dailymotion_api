@@ -6,7 +6,8 @@ require_once 'DM_CLass.php';
 
 $obj = new MyDM_API();
 
-# to getch list of videos based on search text
+## To get list of videos based on search text
+```
 $fields = array('id', 'title','thumbnail_480_url');
 $search_text = "USA elections 2016";
 $data_arr = array(
@@ -17,5 +18,6 @@ $data_arr = array(
     'limit' => 3
 );
 $list=$obj->getVideoList($data_arr);
+```
 
 Now $fields are the parameters you want with each video, search means the 'text', $limit referes to numbers of videos to be matched.
